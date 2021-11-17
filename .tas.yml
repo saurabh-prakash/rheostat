@@ -1,0 +1,22 @@
+---
+framework: jest
+modifiers:
+  - type: jest
+    cli: "--forbid-pending --no-bail"
+postMerge:
+  pattern:
+    - "test/algorithms/geometric-test.js"
+  strategy:
+    threshold: <5|100s|30m|6h>
+    type: <commit|time>
+preMerge:
+  pattern:
+    - "test/algorithms/geometric-test.js"
+stability:
+  consecutive_runs: 5
+preRun:
+  - npm i
+  - npm run react
+postRun:
+  - node --version
+version: 2.0
