@@ -47,4 +47,16 @@ describe('geometric algorithm', () => {
     const positionFromValue = geometric.getPosition(value, min, max);
     assert.equal(positionFromValue, x);
   });
+
+  it('should should detect odd number', () => {
+    const number = Math.floor(Math.random() * 10);
+    const result = number % 2;
+    assert.equal(result, 1);
+  });
+
+  it('should should detect multiple of 3', () => {
+    const number = Math.floor(Math.random() * 10);
+    const result = number % 3;
+    assert.equal(result, 0);
+  });
 });
