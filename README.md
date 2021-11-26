@@ -8,7 +8,7 @@
 
 `npm install rheostat`
 
-## Initialize
+## Initialize sddsf
 
 As of v3.0.0, the `rheostat` project relies on `react-with-styles`. If you want to continue using CSS stylesheets and classes, there is a little bit of extra set-up required to get things going. As such, you need to use to use `rheostat/initialize` to set up class names on your components.
 
