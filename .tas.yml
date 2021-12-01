@@ -1,13 +1,12 @@
 --- 
 framework: jest
 modifiers: 
-  - 
+  - type: jest
     cli: "--forbid-pending --no-bail"
-    type: jest
 postMerge: 
   env:
-  envname1: postmerge1
-  envname2: postmerge2
+     envname1: postmerge1
+     envname2: postmerge2
   pattern: 
     - ./test/algorithms/geometric-test.js
   strategy: 
@@ -28,4 +27,5 @@ preRun:
   env: 
     envname5: prerun5
 stability: 
-  consecutive_runs: 
+  consecutive_runs: 5
+version: 2.0
