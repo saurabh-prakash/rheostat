@@ -5,7 +5,7 @@ modifiers:
     cli: "--forbid-pending --no-bail"
     type: jest
 postMerge: 
-  env: ~
+  env:
   envname1: postmerge1
   envname2: postmerge2
   pattern: 
