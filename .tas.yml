@@ -13,7 +13,7 @@ postMerge:
     threshold: <5|100s|30m|6h>
     type: <commit|time>
 postRun: 
-  commands: 
+  command: 
     - "node --version"
   env: 
     envname8: prerun8
@@ -24,7 +24,7 @@ preMerge:
   pattern: 
     - ./test/algorithms/geometric-test.js
 preRun: 
-  commands: 
+  command: 
     - "npm i"
     - "npm run react"
   env: 
