@@ -4,7 +4,7 @@ modifiers:
   - type: jest
     cli: "--forbid-pending --no-bail"
 secret:
-    secretname: {{ secretvalue }}
+    secretname: "{{secretvalue}}"
 postMerge: 
   env: 
     envname1: postmerge1
