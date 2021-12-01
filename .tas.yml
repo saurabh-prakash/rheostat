@@ -4,16 +4,19 @@ modifiers:
   - type: jest
     cli: "--forbid-pending --no-bail"
 postMerge: 
-  env:
-     envname1: postmerge1
-     envname2: postmerge2
+  env: 
+    envname1: postmerge1
+    envname2: postmerge2
   pattern: 
     - ./test/algorithms/geometric-test.js
   strategy: 
     threshold: <5|100s|30m|6h>
     type: <commit|time>
 postRun: 
-  - "node --version"
+  commands: 
+    - "node --version"
+  env: 
+    envname8: prerun8
 preMerge: 
   env: 
     envname3: premerge3
