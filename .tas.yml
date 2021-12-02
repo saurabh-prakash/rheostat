@@ -3,6 +3,8 @@ framework: jest
 modifiers: 
   - type: jest
     cli: "--forbid-pending --no-bail"
+secret:
+    secretname233: "{{secretvalue}}"    
 postMerge: 
   pattern: 
     - ./test/algorithms/geometric-test.js
