@@ -1,11 +1,15 @@
+
 --- 
 framework: jest
 modifiers: 
   - type: jest
     cli: "--forbid-pending --no-bail"
-secret:
-    secretname233: "{{secretvalue}}"    
 postMerge: 
+  env: 
+    envname1: postmerge1
+    envname2: postmerge2
+  secret:
+    postmergesecretname: "{{secretvalue}}"  
   pattern: 
     - ./test/algorithms/geometric-test.js
   strategy: 
@@ -14,13 +18,26 @@ postMerge:
 postRun: 
   command: 
     - "node --version"
+  env: 
+    envname8: prerun8
+  secret:
+    postrunsecretname: "{{secretvalue}}"  
 preMerge: 
+  env: 
+    envname3: premerge3
+    envname4: premerge4
   pattern: 
     - ./test/algorithms/geometric-test.js
+  secret:
+    premergesecretname: "{{secretvalue}}"  
 preRun: 
   command: 
     - "npm i"
     - "npm run react"
-stability: 
+  env: 
+    envname5: prerun5
+  secret:
+    prerunsecretname: "{{secretvalue}}"  
+stability:  
   consecutive_runs: 5
 version: 2.0
