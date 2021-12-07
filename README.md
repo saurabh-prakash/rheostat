@@ -1,5 +1,4 @@
 # Rheostat
-Testing with Anmol 1
 
 > A mobile, tablet, desktop, and accessible slider for the web. Testing with CR.
 
@@ -181,4 +180,3 @@ For more examples you can check out the storybook.
 * `npm install`
 * `npm run storybook`
 * Visit `http://localhost:9001/`.
-
