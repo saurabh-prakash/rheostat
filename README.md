@@ -180,4 +180,3 @@ For more examples you can check out the storybook.
 * `npm install`
 * `npm run storybook`
 * Visit `http://localhost:9001/`.
-
