@@ -8,8 +8,8 @@ postMerge:
   pattern: 
     - ./test/algorithms/geometric-test.js
   strategy: 
-    threshold: <5|100s|30m|6h>
-    type: <commit|time>
+    threshold: 1
+    type: AfterNthCommitStrategy
 postRun: 
     - "node --version"
 preMerge: 
