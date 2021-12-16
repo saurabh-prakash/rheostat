@@ -8,7 +8,7 @@ postMerge:
   pattern: 
     - ./test/algorithms/geometric-test.js
   strategy: 
-    threshold: 1
+    threshold: 2
     type: AfterNthCommitStrategy
 postRun: 
     - "node --version"
