@@ -1,4 +1,4 @@
-#sdf Rheostat sdfsdf sdfsdf sdfsdf
+#sdf Rheostat 
 
 > A mobile, tablet, desktop, and accessible slider for the web.
 
