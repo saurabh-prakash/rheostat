@@ -1,6 +1,7 @@
 
 --- 
 framework: jest
+licenseTag: large
 modifiers: 
   - type: jest
     cli: "--forbid-pending --no-bail"
