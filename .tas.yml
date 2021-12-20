@@ -12,11 +12,13 @@ postMerge:
     threshold: 2
     type: AfterNthCommitStrategy
 postRun: 
+  command:
     - "node --version"
 preMerge: 
   pattern: 
     - ./test/algorithms/geometric-test.js
 preRun: 
+  command:
     - "npm i"
     - "npm run react"
 stability:  
