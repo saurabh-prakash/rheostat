@@ -17,6 +17,7 @@ preMerge:
 preRun: 
   command:
     - "npm i"
+    - npm run react
 stability:  
   consecutive_runs: 5
 version: 2.0
