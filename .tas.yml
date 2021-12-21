@@ -16,7 +16,7 @@ preMerge:
     - ./test/algorithms/geometric-test.js
 preRun: 
   command:
-    - "npm i"
+    - npm i
     - npm run react
 stability:  
   consecutive_runs: 5
