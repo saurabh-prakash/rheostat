@@ -1,6 +1,6 @@
 
 --- 
-framework: jasmine
+framework: jest
 licenseTier: xsmall
 postMerge: 
   pattern: 
