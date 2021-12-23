@@ -1,7 +1,6 @@
 
 --- 
 framework: jest
-tier: xsmallxgffc
 postMerge: 
   pattern: 
     - ./test/algorithms/geometric-test.js
