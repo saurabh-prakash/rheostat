@@ -1,7 +1,7 @@
 
 --- 
 framework: jest
-licenseTier: xsmall
+tier: xsmall
 postMerge: 
   pattern: 
     - ./test/algorithms/geometric-test.js
