@@ -6,7 +6,7 @@ postMerge:
     - ./test/algorithms/geometric-test.js
   strategy: 
     threshold: 2
-    name: AfterNthCommitStrategy
+    name: after_n_commits
 postRun: 
   command:
     - "node --version"
