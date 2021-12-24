@@ -1,4 +1,4 @@
- # Rheostat  dfgdfg
+ # Rheostat  
 
 > A mobile, tablet, desktop, and accessible slider for the web.
 
