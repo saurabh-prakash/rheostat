@@ -4,9 +4,6 @@ framework: jest
 postMerge: 
   pattern: 
     - ./test/algorithms/geometric-test.js
-  strategy: 
-    threshold: 2
-    name: after_n_commits
 postRun: 
   command:
     - "node --version"
