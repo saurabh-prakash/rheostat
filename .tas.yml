@@ -19,4 +19,4 @@ preRun:
     - npm run react
 stability:  
   consecutive_runs: 5
-version: 2.0
+version: 2.1
