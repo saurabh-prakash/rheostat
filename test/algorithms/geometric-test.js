@@ -59,4 +59,8 @@ describe('geometric algorithm', () => {
     const result = number % 3;
     assert.equal(result, 0);
   });
+  
+  it("Returns about-us for english language", () => {
+        expect(getAboutUsLink(process.env.ENGLISH_CODE)).toBe("/about-us");
+    });
 });
