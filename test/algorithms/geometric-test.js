@@ -61,6 +61,6 @@ describe('geometric algorithm', () => {
   });
   
   it("Returns about-us for english language", () => {
-        expect(getAboutUsLink(process.env.ENGLISH_CODE)).toBe("/about-us");
+        assert.equal(process.env.ENGLISH_CODE, "englist");
     });
 });
