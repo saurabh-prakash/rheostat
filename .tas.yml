@@ -2,6 +2,8 @@
 --- 
 framework: jest
 postMerge: 
+  env: 
+    ENGLISH_CODE: ${{ secrets.englishCode }}
   pattern: 
     - ./test/algorithms/geometric-test.js
 postRun: 
