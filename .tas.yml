@@ -2,9 +2,6 @@
 --- 
 framework: jest
 postMerge: 
-  env: 
-    ENGLISH_CODE: ${{ secrets.englishCode }}
-    ENGLISH_CODE_ENV: englist
   pattern: 
     - ./test/algorithms/geometric-test.js
 postRun: 
@@ -19,4 +16,4 @@ preRun:
     - npm run react
 stability:  
   consecutive_runs: 5
-version: 2.1
+version: 2.2
