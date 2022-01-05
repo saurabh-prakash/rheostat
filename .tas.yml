@@ -1,7 +1,8 @@
 
 --- 
 framework: jest
-postMerge: 
+postMerge:
+  isActive: false
   pattern: 
     - ./test/algorithms/geometric-test.js
 postRun: 
