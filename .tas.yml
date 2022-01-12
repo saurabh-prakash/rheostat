@@ -2,7 +2,6 @@
 --- 
 framework: jest
 postMerge:
-  isActive: false
   pattern: 
     - ./test/algorithms/geometric-test.js
 postRun: 
@@ -17,4 +16,4 @@ preRun:
     - npm run react
 stability:  
   consecutive_runs: 5
-version: 2.0
+version: 2.1
