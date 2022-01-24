@@ -13,5 +13,5 @@ preRun:
 postRun:
   command:
     - node --version
-nodeVersion: 14.17.2
+nodeVersion: v14.17.2
 version: 2.1
