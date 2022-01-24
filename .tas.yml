@@ -8,8 +8,10 @@ preMerge:
     - "test/algorithms/geometric-test.js"
 preRun:
   command:
+    - node --version
     - npm i && npm run react
 postRun:
   command:
     - node --version
+nodeVersion: 14.17.2
 version: 2.1
