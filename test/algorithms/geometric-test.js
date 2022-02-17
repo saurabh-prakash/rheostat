@@ -60,11 +60,4 @@ describe('geometric algorithm', () => {
     assert.equal(result, 0);
   });
 
-  it('Returns about-us for english language', () => {
-    assert.equal(process.env.ENGLISH_CODE, 'englist');
-  });
-
-  it('Returns about-us for english language env', () => {
-    assert.equal(process.env.ENGLISH_CODE_ENV, 'englist');
-  });
 });
