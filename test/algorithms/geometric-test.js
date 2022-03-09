@@ -49,7 +49,7 @@ describe('geometric algorithm', () => {
   });
 
   it('should should detect odd number', () => {
-    const number = Math.floor(Math.random() * 10);
+    const number = 3;
     const result = number % 2;
     assert.equal(result, 1);
   });
