@@ -3,6 +3,7 @@
 framework: jest
 blocklist: 
  - "test/algorithms/geometric-test.js##geometric algorithm##should have inverse functions for getPosition and getValue##"
+parallelism: 3 
 postMerge:
   pattern: 
     - ./test/algorithms/geometric-test.js
