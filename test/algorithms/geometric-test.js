@@ -12,7 +12,7 @@ describe('geometric algorithm', () => {
     assert.equal(Math.round(positionFromValue), originalPosition);
   });
 
-  it('should have inverse functions for getValue and getPosition', () => {
+  it.skip('should have inverse functions for getValue and getPosition', () => {
     const min = 10;
     const max = 1000;
     const value = 358;
