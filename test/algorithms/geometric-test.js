@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import casual from 'casual';
 import geometric from '../../src/algorithms/geometric';
-
+/* sdf */
 describe('geometric algorithm', () => {
   it('should have inverse functions for getPosition and getValue', () => {
     const min = casual.integer(0, 100);
