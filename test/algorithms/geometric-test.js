@@ -49,7 +49,7 @@ describe('geometric algorithm', () => {
   });
 
   it('should should detect multiple of 2', () => {
-    const number = 2;
+    const number = const number = Math.floor(Math.random() * 10);
     const result = number % 2;
     assert.equal(result, 0);
   });
@@ -65,5 +65,12 @@ describe('geometric algorithm', () => {
     const result = number % 2;
     assert.equal(result, 1);
   });
+  
+    it('should should detect multiple of 4', () => {
+    const number = const number = Math.floor(Math.random() * 10);
+    const result = number % 4;
+    assert.equal(result, 0);
+  });
+  
 
 });
